@@ -1,0 +1,18 @@
+This program provides a simple generator for a game skeleton. To use, run:
+
+python startproject.py com.example.package.name.to.use ../path/to/folder
+
+It's that simple. It doesn't have many features, there are a few rough 
+edges, and some of the *.properties files apply to my system right now, 
+but it's useful for me and will save you about 15 minutes of duplicated 
+effort if you begin with this :)
+
+The project you get has three classes, is ready to use OpenGL, and will 
+draw a line connecting two points on the display wherever you place your 
+fingers.
+
+TODO
+
+ - Generate *.properties files.
+ - Provide more control over class name casing.
+ - Add sound!!!
